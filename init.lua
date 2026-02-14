@@ -891,12 +891,12 @@ end
 obj:initialize()
 
 
-hs.hotkey.bind({"alt"}, "1",    function () obj:ws_goto("1") end)
-hs.hotkey.bind({"alt"}, "2",    function () obj:ws_goto("2") end)
-hs.hotkey.bind({"alt"}, "3",    function () obj:ws_goto("3") end)
-hs.hotkey.bind({"alt"}, "4",    function () obj:ws_goto("4") end)
-hs.hotkey.bind({"alt"}, "5",    function () obj:ws_goto("5") end)
-hs.hotkey.bind({"alt"}, "6",    function () obj:ws_goto("6") end)
+hs.hotkey.bind({"alt"}, "1", "Switch to workspace 1 [Workspace]", function () obj:ws_goto("1") end)
+hs.hotkey.bind({"alt"}, "2", "Switch to workspace 2 [Workspace]", function () obj:ws_goto("2") end)
+hs.hotkey.bind({"alt"}, "3", "Switch to workspace 3 [Workspace]", function () obj:ws_goto("3") end)
+hs.hotkey.bind({"alt"}, "4", "Switch to workspace 4 [Workspace]", function () obj:ws_goto("4") end)
+hs.hotkey.bind({"alt"}, "5", "Switch to workspace 5 [Workspace]", function () obj:ws_goto("5") end)
+hs.hotkey.bind({"alt"}, "6", "Switch to workspace 6 [Workspace]", function () obj:ws_goto("6") end)
 
 hs.hotkey.bind({"shift", "alt"}, "1",    function () obj:focused_window_to_ws("1", true) end)
 hs.hotkey.bind({"shift", "alt"}, "2",    function () obj:focused_window_to_ws("2", true) end)
